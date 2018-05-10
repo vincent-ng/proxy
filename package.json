@@ -1,21 +1,21 @@
 {
-  "name": "socks-proxy",
+  "name": "proxy",
   "version": "1.0.0",
-  "description": "A socks server base on ssh and sshd, which can be used as a web proxy.",
+  "description": "A proxy server app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vincentngthu/socks-proxy.git"
+    "url": "git+https://github.com/vincentngthu/proxy.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vincentngthu/socks-proxy/issues"
+    "url": "https://github.com/vincentngthu/proxy/issues"
   },
-  "homepage": "https://github.com/vincentngthu/socks-proxy#readme",
+  "homepage": "https://github.com/vincentngthu/proxy#readme",
   "dependencies": {
     "request": "^2.85.0"
   }

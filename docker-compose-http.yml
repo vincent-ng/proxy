@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  proxy:
+    image: vincent/proxy:http
+    # build:
+    #   context: .
+    #   dockerfile: http.dockerfile
+    ports:
+      - 8123:80
