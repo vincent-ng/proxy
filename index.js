@@ -27,4 +27,4 @@ server.addListener('connect', (req, socket, bodyhead) => {
 	}).on('error', console.error)
 })
 
-server.listen(80)
+server.listen(process.env.PORT || 80)
