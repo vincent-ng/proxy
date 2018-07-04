@@ -21,6 +21,7 @@ if (process.env.TARGET) {
 	})
 } else {
 	server = http.createServer((req, res) => {
+		const { protocol, host } = url.parse(req.url)
 		if (!protocol || !host) {
 			res.end('Hello proxy user!')
 			return
